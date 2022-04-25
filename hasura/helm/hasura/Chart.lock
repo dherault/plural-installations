@@ -1,0 +1,6 @@
+dependencies:
+- name: hasura
+  repository: cm://app.plural.sh/cm/hasura
+  version: 0.1.4
+digest: sha256:ccbc0f2ae4cb5165690dd7f43cf1214e773dfc1fde168495e97ad357ae8d507b
+generated: "2022-04-25T19:12:22.69741+03:00"

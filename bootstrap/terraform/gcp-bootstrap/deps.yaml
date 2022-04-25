@@ -1,0 +1,14 @@
+apiVersion: plural.sh/v1alpha1
+kind: Dependencies
+metadata:
+  description: Creates a GKE cluster and adds initial configuration
+  version: 0.2.3
+spec:
+  dependencies: []
+  providers:
+  - gcp
+  outputs:
+    cluster: cluster
+    vpc_network: vpc_network
+  provider_wirings:
+    cluster: module.gcp-bootstrap.cluster
