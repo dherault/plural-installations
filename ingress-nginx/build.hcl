@@ -28,5 +28,6 @@ scaffold "helm" {
 
     sha     = "549a25f91da210934416cf1dcc36626b1e188acca419bd23d39b0a034e83c5e9"
     retries = 0
+    verbose = false
   }
 }
